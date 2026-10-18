@@ -42,7 +42,7 @@ def _candidate_section(r):
     ]
     if kn:
         lines += ["Key numbers:", ""]
-        for k in ("shared_commits", "identifier_jaccard",
+        for k in ("shared_commits", "identical_files", "identifier_jaccard",
                   "shared_rare_identifiers", "name_similarity", "dep_overlap",
                   "timeline"):
             if k in kn:
