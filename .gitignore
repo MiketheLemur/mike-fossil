@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+.fossil/
+*.egg-info/
+dist/
+build/
